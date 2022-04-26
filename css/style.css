@@ -3,9 +3,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-.container{
-
-}
 .h-navigation{
     padding-top: 25px;
     padding-bottom: 23px;
@@ -99,4 +96,148 @@
 .h-showcase-buttons__see-more a:hover{
     color: #FD8558;
     background-color: white;
+}
+/* MAIN BLOCK */
+/* ABOUT US BLOCK */
+.about-us__block{
+    padding-top: 52px;
+}
+.about-us__bg{
+    color: #F7F7F7;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150px;
+    letter-spacing: 0.1px;
+    padding-left: 15px;
+}
+.about-us__info{
+    margin-right: auto;
+    margin-left:  auto;
+    max-width: 1650px;
+    padding-right: 120px;
+    padding-left:  120px;
+}
+.about-us__heading{
+    padding-top: 15px;
+}
+.about-us__heading p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #FD8558;
+}
+.about-us__heading h2{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 54px;
+    color: #333333;
+    padding-top: 35px;
+}
+.about-us__info{
+    display: flex;
+}
+.about-us__short-info{
+    padding-left: 90px;
+}
+.about-us__short-info h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #222222;
+}
+.about-us__short-info p{
+    width: 591px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: #999999;
+    padding-top: 11px;
+}
+.about-us_fav-quotes{
+    padding-top: 57px;
+
+    margin-right: auto;
+    margin-left:  auto;
+    max-width: 1554px;
+    padding-right: 183px;
+    padding-left:  183px;
+
+    display: flex;
+}
+
+.about-us__quote{
+    padding-left: 48px;
+}
+.about-us__quote h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 45px;
+    color: #222222;
+    width: 387px;
+    padding-top: 68px;
+}
+.about-us__quote h3 span{
+    color: #FD8558;
+}
+.about-us__quote h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #222222;
+    padding-top: 97px;
+}
+.about-us__quote p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 1.8px;
+    color: #CACACA;
+    padding-top: 14px;
+}
+.about-us__advantages-block{
+    padding-top: 185px;
+
+    margin-right: auto;
+    margin-left:  auto;
+    max-width: 1608px;
+    padding-right: 146px;
+    padding-left:  146px;
+
+    display: flex;
+    justify-content: space-between;
+}
+.advantages{
+    max-width: 337px;
+}
+.advantures-img{
+    text-align: center;
+}
+.advantages h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #333333;
+    text-align: center;
+}
+.advantages p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: #999999;
+    text-align: center;
+    padding-top: 17px;
 }
