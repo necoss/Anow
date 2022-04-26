@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+
+}
+.h-navigation{
+    padding-top: 25px;
+    padding-bottom: 23px;
+}
+.h-navigation nav{
+    display: flex;
+}
+.h-navigation nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    
+}
+.h-navigation nav ul li{
+    padding-right: 32px;
+}
+.h-navigation ul li:last-child{
+    padding-right: 0;
+}
+.h-navigation nav ul li a{
+    color: #222222;
+    text-decoration: none;
+    font-family: 'Poppins';
+}
+.h-navigation_ul-demos a{
+    color: #FD8558 !important; 
+}
+.h-navigation nav ul span{
+    padding-right: 210px;
+    padding-left: 156px;
+}
+.h-navigation nav ul span a{
+    color: #222222;
+    /* color: transparent; */
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 1.1px;
+}
+/* BIG SHOWCASE BLOCK */
+.h-showcase{
+    background-image: url(../img/Header_images/header_background.png);
+    /* background-size: cover; */
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.h-showcase-slogan{
+    color: white;
+    font-weight: 400;
+    font-size: 70px;
+    text-align: center;
+    line-height: 85px;
+    font-family: 'Poppins';
+    padding-top: 250px;
+    padding-bottom: 40px;
+}
+.h-showcase-buttons{
+    display: flex;
+    justify-content: center;
+}
+.h-showcase-buttons__start-now{
+    padding-right: 28px;
+    padding-bottom: 310px;
+}
+.h-showcase-buttons__start-now a{
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Poppins';
+    text-decoration: none;
+    background-color: #FD8558;
+    padding: 15px 40px;
+
+    transition: 0.4s ease-in-out;
+}
+.h-showcase-buttons__start-now a:hover{
+    background-color: white;
+    color: #FD8558;
+}
+.h-showcase-buttons__see-more a{
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Poppins';
+    text-decoration: none;
+    border: 2px solid #FD8558;
+    padding: 13px 38px;
+
+    transition: 0.4s ease-in-out;
+}
+.h-showcase-buttons__see-more a:hover{
+    color: #FD8558;
+    background-color: white;
+}
