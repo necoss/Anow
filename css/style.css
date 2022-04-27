@@ -241,3 +241,26 @@
     text-align: center;
     padding-top: 17px;
 }
+/* BLOCK TRANSITION */
+.main-block-transition{
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-block-transition__hr-line{
+    width: 606px;
+	padding: 0;
+	height: 0;
+	border: none;
+	border-top: 2px solid #F5F5F5;  
+}
+.main-block-transition__circle{
+    width: 80px;
+    height: 80px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 40px;
+    background: rgba(253, 133, 88, 0.2);
+    margin: 0px 40px;
+}

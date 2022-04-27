@@ -5,6 +5,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 ## [Unreleased]
 
+## [0.0.4] - 2022-04-27
+### Added:
+- Added a visual transition between two blocks.
+
 ## [0.0.3] - 2022-04-26
 ### Added:
 - New block "About us"
