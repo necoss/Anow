@@ -5,6 +5,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 ## [Unreleased]
 
+## [0.0.5] - 2022-04-30
+### Added:
+- Block "Latest Works"
+- Block "Our Skills"
+- Block "Our Team"
+- Block "Testimonials"
+### Fixed:
+- Bugs with buttons.
+
 ## [0.0.4] - 2022-04-27
 ### Added:
 - Added a visual transition between two blocks.
