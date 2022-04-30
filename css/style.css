@@ -595,3 +595,84 @@
     color: #FFFFFF;
     padding-top: 5px;
 }
+/* NEWS BLOCK */
+.news-block__head{
+    padding-top: 122px;
+}
+.news-block__head p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #FD8558;
+}
+.news-block__head h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    text-align: center;
+    color: #222222;
+    padding-top: 43px;
+}
+.news-block__cards{
+    margin-right: auto;
+    margin-left:  auto;
+    max-width: 1620px;
+    padding-right: 150px;
+    padding-left:  150px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.news-cards__card-1-info, .news-cards__card-2-info, .news-cards__card-3-info{
+    display: flex;
+    padding-top: 28px;
+}
+.news-cards__card-1-info-lifestyle, .news-cards__card-2-info-lifestyle, .news-cards__card-3-info-lifestyle{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;    
+    color: #FD8558;
+}
+.news-cards__card-1-info-design, .news-cards__card-2-info-design{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;    
+    color: #FD8558;
+    padding-left: 10px;
+}
+.news-cards__card-1-info-date, .news-cards__card-2-info-date, .news-cards__card-3-info-date{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #999999;
+}
+.news-cards__card-1-info-date i, .news-cards__card-2-info-date i, .news-cards__card-3-info-date i{
+    font-size: 5px;
+    padding: 0 10px;
+}
+.news-cards__card-1-header, .news-cards__card-2-header, .news-cards__card-3-header{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    color: #222222;
+    padding-top: 20px;
+    padding-bottom: 36px;
+    max-width: 326px;
+}
+.news-cards__card-1-button, .news-cards__card-2-button, .news-cards__card-3-button{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #FD8558;
+    text-decoration: none;
+}

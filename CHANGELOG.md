@@ -5,6 +5,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 ## [Unreleased]
 
+## [0.0.6] - 2022-04-30
+### Added:
+- Block "News"
+- Font Awesome was added to the project.
+
 ## [0.0.5] - 2022-04-30
 ### Added:
 - Block "Latest Works"
