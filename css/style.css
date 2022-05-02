@@ -15,7 +15,6 @@
     justify-content: center;
     align-items: center;
     list-style: none;
-    
 }
 .h-navigation nav ul li{
     padding-right: 32px;
@@ -41,6 +40,16 @@
     font-size: 28px;
     font-weight: 700;
     letter-spacing: 1.1px;
+    
+}
+.menu-open{
+    background-color: transparent;
+    border: transparent;
+    margin-left: 20px;
+    display: none;
+}
+.open-menu img{
+    width: 20px;
 }
 /* BIG SHOWCASE BLOCK */
 .h-showcase{
@@ -120,6 +129,7 @@
 }
 .about-us__heading{
     padding-top: 15px;
+    max-width: 510px;
 }
 .about-us__heading p{
     font-family: 'Poppins';
@@ -819,4 +829,246 @@ footer{
 }
 .footer-copyright p span{
     color: #FFFFFF; 
+}
+/* BURGER */
+.menu i{
+    display: none;
+    padding-right: 5px;
+}
+.show-menu{
+    display: flex !important;
+    transition: 0.4s;
+}
+.show-menu li{
+    margin-right: 5px;
+}
+.show-menu li a{
+    font-size: 12px;
+}
+.show-menu li i{
+    text-align: center;
+    font-size: 5px;
+    display: unset;
+}
+
+/* ADAPTIVE */
+@media screen and (max-width: 575px){
+    /* NAVIGATION ADAPTIVE */
+    .h-navigation, .h-showcase, .about-us__info, .about-us__advantages-block, .our-skills-block{
+        width: 100%;
+        padding: 0 15px;
+    }
+    nav ul:last-of-type{
+        display: none;
+    }
+    .h-navigation nav{
+        display: block;
+    }
+    .h-navigation nav ul li{
+        padding-right: 0px;
+    }
+    .h-navigation nav ul span{
+        padding-left: 0px;
+    }
+    .h-navigation nav ul span{
+        /* margin-left: 20px; */
+        padding-right: 0;
+    }
+    .menu{
+        display: flex;
+    }
+    .menu-open{
+        display: block;
+    }
+    .h-showcase{
+        padding-bottom: 70px;
+    }
+    .h-showcase-slogan{
+        font-size: 30px;
+        padding-top: 70px;
+        line-height: 40px;
+        padding-bottom: 50px;
+    }
+    .h-showcase-buttons__start-now{
+        padding-bottom: 0px;
+    }
+    .h-showcase-buttons__start-now a{
+        font-size: 13px;
+        padding: 10px 20px;
+        border: 2px solid #FD8558;
+    }
+    .h-showcase-buttons__see-more a{
+        font-size: 13px;
+        padding: 10px 20px;
+    }
+    /* ABOUT US ADAPTIVE */
+    .about-us__block{
+        padding-top: 10px;
+    }
+    .about-us__bg{
+        font-size: 70px;
+    }
+    .about-us__info{
+        display: block;
+        padding-left: 30px;
+    }
+    .about-us__short-info{
+        padding-left: 0px;
+        padding-top: 28px;
+    }
+    .about-us__short-info p{
+        max-width: 435px;
+    }
+    .about-us_fav-quotes{
+        padding-left: 10px;
+    }
+    .about-us_fav-quotes img{
+        max-width: 235px;
+        height: 280px;
+    }
+    .about-us__quote{
+        padding-left: 24px;
+    }
+    .about-us__quote h3{
+        font-size: 13px;
+        max-width: 200px;
+        line-height: 23px;
+        padding-top: 38px;
+    }
+    .about-us__quote h5{
+        font-size: 14px;
+        padding-top: 40px;
+    }
+    /* ADVANTAGES ADAPTIVE */
+    .about-us__advantages-block{
+        display: block;
+        padding-left: 70px;
+    }
+    .advantages{
+        padding-top: 50px;
+    }
+    /* TRANSITION BETWEEN BLOCKA ADAPTIVE */
+    .main-block-transition__circle{
+        width: 50px;
+        height: 50px;
+    }
+    .main-block-transition__hr-line{
+        width: 100px;
+    }
+    /* LASTEST WORKS ADAPTIVE */
+    .lastest-works__head{
+        padding: 0px 15px;
+    }
+    .lastest-works__head-button a{
+        font-size: 10px;
+        border: 2px solid #FD8558;
+        padding: 8px 32px;
+    }
+    .lastest-works{
+        padding-top: 100px;
+    }
+    .lastest-works__head-bg{
+        font-size: 100px;
+        padding: 0 15px;
+        margin-top: -10px;
+        padding-bottom: 35px;
+    }
+    .lastest-works-examples{
+        width: 480px;
+        display: block;
+    }
+    .last-works-examples__adaptive img{
+        width: 480px;
+    }
+    /* OUR SKILLS BLOCK ADAPTIVE */
+    .our-skills-block{
+        display: block;
+    }
+    .our-skills-block__text{
+        margin-top: 20px;
+    }
+    .our-skills-graphics{
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+    .our-skills-graphics__second h5{
+        white-space: nowrap;
+    }
+    .our-skills-graphics img{
+        max-width: 435px;
+    }
+    .our-skills-graphics__first h5 span{
+        padding-left: 270px;
+    }
+    .our-skills-graphics__second h5 span{
+        padding-left: 210px;
+    }
+    .our-skills-graphics__third h5 span{
+        padding-left: 260px;
+    }
+    /* OUR TEAM BLOCK ADAPTIVE */
+    .our-team-block{
+        padding: 150px 15px 30px 15px;
+    }
+    .our-team__cards-fp, .our-team__cards-sp{
+        display: block;
+    }
+    .our-team__cards-sp{
+        padding-top: 0px;
+    }
+    .our-team__cards-adaptive{
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+    /* TESTIMONIALS BLOCK ADAPTIVE */
+    .testimonials-block{
+        width: 100%;
+        padding: 0 15px;
+    }
+    .testimonials-text__bg{
+        width: 435px;
+        font-size: 74px;
+        text-align: unset;
+    }
+    .testimonials-description{
+        padding-top: 30px;
+    }
+    .testimonials-author{
+        padding-bottom: 130px;
+    }
+    /* NEWS BLOCK ADAPTIVE */
+    .news-block__head h5{
+        padding-top: 20px;
+    }
+    .news-block__cards{
+        padding: 0 15px;
+        display: block;
+        padding-left: 65px;
+    }
+    .news-cards__card-2, .news-cards__card-3{
+        padding-top: 50px;
+    }
+    /* INFORATION BLOCK ADAPTIVE */
+    .main-information{
+        padding: 0 15px;
+        padding-top: 100px;
+        display: block;
+    }
+    .main-information__form{
+        padding-top: 40px;
+        max-width: 435px;
+    }
+    .main-information__form-info input{
+        padding: 18px 23px 18px 13px;
+    }
+    /* FOOTER ADAPTIVE */
+    .footer-content{
+        padding: 90px 15px 0 15px;
+    }
+    .footer-content__info-text{
+        display: block;
+    }
+    .footer-content__info{
+        margin-top: -15px;
+    }
 }

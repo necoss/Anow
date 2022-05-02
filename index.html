@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <link type="image/png" sizes="16x16" rel="icon" href="./img/Favicon_img/favicon.png">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
@@ -15,18 +16,21 @@
         <!-- NAVIGATION -->
         <div class="h-navigation">
             <nav>
-                <ul>
+                <ul class="menu-open">
                     <span><li><a href="#">anow</a></li></span>
                 </ul>
-                <ul>
+                <ul class="menu">
                     <li class="h-navigation_ul-demos"><a href="#">demos</a></li>
-                    <li><a href="#">about us</a></li>
-                    <li><a href="#">portfolio</a></li>
-                    <li><a href="#">team</a></li>
-                    <li><a href="#">news</a></li>
-                    <li><a href="#">contact</a></li>
-                    <li><a href="#">other pages</a></li>
+                    <li><i class="fa-solid fa-circle"></i><a href="#">about us</a></li>
+                    <li><i class="fa-solid fa-circle"></i><a href="#">portfolio</a></li>
+                    <li><i class="fa-solid fa-circle"></i><a href="#">team</a></li>
+                    <li><i class="fa-solid fa-circle"></i><a href="#">news</a></li>
+                    <li><i class="fa-solid fa-circle"></i><a href="#">contact</a></li>
+                    <li><i class="fa-solid fa-circle"></i><a href="#">other pages</a></li>
                 </ul>
+                <!-- <button class="menu-open">
+                    <img src="img/burger-adaptive/hamburger.png" width="20px" alt="Open menu">
+                </button> -->
             </nav>
         </div>
         <!-- BIG SHOWCASE -->
@@ -49,7 +53,7 @@
             <div class="about-us__info">
                 <div class="about-us__heading">
                     <p>ABOUT US</p>
-                    <h2>Ultimate experiences <br> with story, emotion and <br> purpose</h2>
+                    <h2>Ultimate experiences with story, emotion and purpose</h2>
                 </div>
                 <div class="about-us__short-info">
                     <h4>Quisque. Maecenas. Eros mus. Hymenaeos eros. Nisi mauris et <br> adipiscing. Aliquam class bibendum</h4>
@@ -83,7 +87,7 @@
                 </div>
             </div>
         </div>
-        <!-- tRANSITION BETWEEN BLOCKS -->
+        <!-- TRANSITION BETWEEN BLOCKS -->
         <div class="main-block-transition">
             <hr class="main-block-transition__hr-line">
             <div class="main-block-transition__circle"></div>
@@ -102,17 +106,18 @@
             </div>
             <p class="lastest-works__head-bg">works</p>
             <div class="lastest-works-examples">
-                <div class="lastest-works-examples__first">
+                <div class="lastest-works-examples__first last-works-examples__adaptive">
                     <img src="img/Work-examplaes/Ex-1-1.png" alt="">
                     <img src="img/Work-examplaes/Ex-1-2.png" alt="">
                 </div>
-                <div class="lastest-works-examples__sec">
+                <div class="lastest-works-examples__sec last-works-examples__adaptive">
                     <img src="img/Work-examplaes/Ex-2.jpg" alt="">
                 </div>
-                <div class="lastest-works-examples__third">
+                <div class="lastest-works-examples__third last-works-examples__adaptive">
                     <img src="img/Work-examplaes/Ex-3-1.png" alt="">
                     <img src="img/Work-examplaes/Ex-3-2.png" alt="">
                 </div>
+                <div class="clear-float" style="clear: both;"></div>
             </div>
         </div>
         <!-- OUR SKILLS BLOCK -->
@@ -144,29 +149,29 @@
                 <h5>Meet Our Awesome Team</h5>
             </div>
             <div class="our-team__cards-fp">
-                <div class="our-team__cards-1">
+                <div class="our-team__cards-1 our-team__cards-adaptive">
                     <h5 class="our-team__cards-text-h5-style">Anna Brown</h5>
                     <p class="our-team__cards-text-p-style">Creative Director</p>
                 </div>
-                <div class="our-team__cards-2">
+                <div class="our-team__cards-2 our-team__cards-adaptive">
                     <h5 class="our-team__cards-text-h5-style">Andy Crown</h5>
                     <p class="our-team__cards-text-p-style">SEO manager</p>
                 </div>
-                <div class="our-team__cards-3">
+                <div class="our-team__cards-3 our-team__cards-adaptive">
                     <h5 class="our-team__cards-text-h5-style">Katy Necker</h5>
                     <p class="our-team__cards-text-p-style">Designer</p>
                 </div>
             </div>
             <div class="our-team__cards-sp">
-                <div class="our-team__cards-4">
+                <div class="our-team__cards-4 our-team__cards-adaptive">
                     <h5 class="our-team__cards-text-h5-style">Margo Kesslin</h5>
                     <p class="our-team__cards-text-p-style">Developer</p>
                 </div>
-                <div class="our-team__cards-5">
+                <div class="our-team__cards-5 our-team__cards-adaptive">
                     <h5 class="our-team__cards-text-h5-style">Kanye Jones</h5>
                     <p class="our-team__cards-text-p-style">Art Director</p>
                 </div>
-                <div class="our-team__cards-6">
+                <div class="our-team__cards-6 our-team__cards-adaptive">
                     <h5 class="our-team__cards-text-h5-style">Marta White</h5>
                     <p class="our-team__cards-text-p-style">Tester</p>
                 </div>
@@ -285,5 +290,8 @@
             <p>© Anow. All Rights Reserved 2022 — Designed by <span>128.digital</span>. Powered by <span>Webflow</span></p>
         </div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+    <script src="./js/hamburger.js"></script>
 </body>
 </html>
