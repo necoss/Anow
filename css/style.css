@@ -1070,7 +1070,7 @@ footer{
     .news-block__cards{
         padding: 0 15px;
         display: block;
-        padding-left: 20px;
+        padding-left: 30px;
     }
     .news-cards__card-2, .news-cards__card-3{
         padding-top: 50px;
@@ -1087,10 +1087,21 @@ footer{
     }
     .main-information__form-info{
         max-width: 363px;
+        display: block;
     }
     .main-information__form-info input{
         padding: 13px 15px 13px 8px;
         font-size: 10px;
+        width: 363px;
+    }
+    .main-information__form-info input:last-of-type{
+        margin-top: 15px;
+    }
+    .main-information__form-info input:first-child{
+        margin-right: 0;
+    }
+    .main-information__form-message{
+        padding-top: 25px;
     }
     .main-information__form-message textarea{
         font-size: 10px;
