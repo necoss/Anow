@@ -881,7 +881,9 @@ footer{
         display: block;
     }
     .h-showcase{
-        padding-bottom: 70px;
+        background-size: cover;
+        background-position: top;
+        height: 300px;    
     }
     .h-showcase-slogan{
         font-size: 30px;
@@ -889,8 +891,11 @@ footer{
         line-height: 40px;
         padding-bottom: 50px;
     }
+    .h-showcase-buttons{
+        margin-bottom: 30px;
+    }
     .h-showcase-buttons__start-now{
-        padding-bottom: 0px;
+        padding-bottom: 20px;
     }
     .h-showcase-buttons__start-now a{
         font-size: 13px;
@@ -907,45 +912,49 @@ footer{
     }
     .about-us__bg{
         font-size: 70px;
+        padding-left: 0px;
     }
     .about-us__info{
         display: block;
-        padding-left: 30px;
+        max-width: 480px;
     }
     .about-us__short-info{
         padding-left: 0px;
         padding-top: 28px;
     }
     .about-us__short-info p{
-        max-width: 435px;
+        max-width: 355px;
     }
     .about-us_fav-quotes{
         padding-left: 10px;
     }
     .about-us_fav-quotes img{
-        max-width: 235px;
-        height: 280px;
+        max-width: 155px;
+        height: 200px;
     }
     .about-us__quote{
-        padding-left: 24px;
+        padding-left: 15px;
     }
     .about-us__quote h3{
         font-size: 13px;
         max-width: 200px;
         line-height: 23px;
-        padding-top: 38px;
+        padding-top: 10px;
     }
     .about-us__quote h5{
         font-size: 14px;
-        padding-top: 40px;
+        padding-top: 25px;
     }
     /* ADVANTAGES ADAPTIVE */
     .about-us__advantages-block{
         display: block;
-        padding-left: 70px;
     }
     .advantages{
         padding-top: 50px;
+        max-width: none;
+    }
+    .advantages h5, .advantages p{
+        text-align: center;
     }
     /* TRANSITION BETWEEN BLOCKA ADAPTIVE */
     .main-block-transition__circle{
@@ -967,6 +976,9 @@ footer{
     .lastest-works{
         padding-top: 100px;
     }
+    .lastest-works__head-text h5{
+        max-width: 200px;
+    }
     .lastest-works__head-bg{
         font-size: 100px;
         padding: 0 15px;
@@ -974,11 +986,22 @@ footer{
         padding-bottom: 35px;
     }
     .lastest-works-examples{
-        width: 480px;
+        max-width: fit-content;
+        /* display: block; */
+    }
+    .lastest-works-examples__first img, .lastest-works-examples__third img{
         display: block;
     }
+    .lastest-works-examples__sec img{
+        height: 140px !important;
+    }
+    .last-works-examples__adaptive{
+        max-width: 435px;
+    }
     .last-works-examples__adaptive img{
-        width: 480px;
+        width: 130px;
+        height: 70px;
+        float: none;    
     }
     /* OUR SKILLS BLOCK ADAPTIVE */
     .our-skills-block{
@@ -995,16 +1018,16 @@ footer{
         white-space: nowrap;
     }
     .our-skills-graphics img{
-        max-width: 435px;
+        max-width: 340px;
     }
     .our-skills-graphics__first h5 span{
-        padding-left: 270px;
+        padding-left: 176px;
     }
     .our-skills-graphics__second h5 span{
-        padding-left: 210px;
+        padding-left: 140px;
     }
     .our-skills-graphics__third h5 span{
-        padding-left: 260px;
+        padding-left: 175px;
     }
     /* OUR TEAM BLOCK ADAPTIVE */
     .our-team-block{
@@ -1018,7 +1041,11 @@ footer{
     }
     .our-team__cards-adaptive{
         margin-top: 20px;
-        margin-left: 50px;
+        background-size: 100%;
+        width: 100%;
+    }
+    .our-team__cards-adaptive h5, .our-team__cards-adaptive p{
+        text-align: center;
     }
     /* TESTIMONIALS BLOCK ADAPTIVE */
     .testimonials-block{
@@ -1026,9 +1053,9 @@ footer{
         padding: 0 15px;
     }
     .testimonials-text__bg{
-        width: 435px;
-        font-size: 74px;
-        text-align: unset;
+        max-width: 435px;
+        font-size: 59px;
+        text-align: center;
     }
     .testimonials-description{
         padding-top: 30px;
@@ -1043,7 +1070,6 @@ footer{
     .news-block__cards{
         padding: 0 15px;
         display: block;
-        padding-left: 65px;
     }
     .news-cards__card-2, .news-cards__card-3{
         padding-top: 50px;
@@ -1059,7 +1085,12 @@ footer{
         max-width: 435px;
     }
     .main-information__form-info input{
-        padding: 18px 23px 18px 13px;
+        padding: 13px 15px 13px 8px;
+        font-size: 10px;
+    }
+    .main-information__form-message textarea{
+        font-size: 10px;
+        padding: 20px 0px 87px 10px;
     }
     /* FOOTER ADAPTIVE */
     .footer-content{

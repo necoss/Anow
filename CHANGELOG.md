@@ -5,6 +5,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 ## [Release]
 
+## [1.2] - 2022-05-03
+### Fixed: 
+- Adaptive on Iphone and Xiaomi devices
+
 ## [1.1] - 2022-05-02
 ### Global Update!
 ### Added:
