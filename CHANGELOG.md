@@ -5,6 +5,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 ## [Release]
 
+## [1.5] - 2022-05-03
+### Fixed:
+- Adaptive version of "News Block".
+- E-mail Form (Adaptive) absolutely fixed!
+
 ## [1.4] - 2022-05-03
 ### Fixed:
 - Adaptive with e-mail form. (Another bug)
