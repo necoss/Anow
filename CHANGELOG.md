@@ -5,6 +5,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 ## [Release]
 
+## [1.3] - 2022-05-03
+### Added:
+- PrefixFree plugin.
+### Fixed:
+- Adaptive E-mail form.
+
 ## [1.2] - 2022-05-03
 ### Fixed: 
 - Adaptive on Iphone and Xiaomi devices

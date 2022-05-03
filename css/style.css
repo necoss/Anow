@@ -1070,6 +1070,7 @@ footer{
     .news-block__cards{
         padding: 0 15px;
         display: block;
+        padding-left: 20px;
     }
     .news-cards__card-2, .news-cards__card-3{
         padding-top: 50px;
@@ -1083,6 +1084,9 @@ footer{
     .main-information__form{
         padding-top: 40px;
         max-width: 435px;
+    }
+    .main-information__form-info{
+        max-width: 363px;
     }
     .main-information__form-info input{
         padding: 13px 15px 13px 8px;
