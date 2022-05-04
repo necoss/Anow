@@ -927,6 +927,7 @@ footer{
     }
     .about-us_fav-quotes{
         padding-left: 10px;
+        padding-right: 0px;
     }
     .about-us_fav-quotes img{
         max-width: 155px;
@@ -986,18 +987,20 @@ footer{
         padding-bottom: 35px;
     }
     .lastest-works-examples{
-        width: 100%;
+        max-width: 100%;
     }
     .lastest-works-examples__first img, .lastest-works-examples__third img{
         display: block;
     }
     .lastest-works-examples__sec img{
-        height: 180px !important;
+        /* height: 180px !important; */
     }
     .last-works-examples__adaptive img{
-        width: 130px;
-        height: 90px;
+        /* width: 130px;
+        height: 90px; */
         float: none;    
+        max-width: 95%;
+        margin: 0px;
     }
     /* OUR SKILLS BLOCK ADAPTIVE */
     .our-skills-block{
@@ -1110,12 +1113,25 @@ footer{
     }
     /* FOOTER ADAPTIVE */
     .footer-content{
-        padding: 90px 15px 0 15px;
-    }
-    .footer-content__info-text{
-        display: block;
+        max-width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        justify-content: center;
     }
     .footer-content__info{
         margin-top: -15px;
+    }
+    .footer-content__info h5{
+        text-align: center;
+    }
+    .footer-content__info-text{
+        /* justify-content: center;
+        align-items: center; */
+    }
+    .footer-content__info-text p{
+        white-space: nowrap;
+    }
+    .footer-content__styles-blocks{
+        display: none;
     }
 }

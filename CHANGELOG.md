@@ -5,6 +5,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 ## [Release]
 
+## [1.6] - 2022-05-04
+### Fixed: 
+- Adaptive with "Lastest Works" images.
+- Now footer has normal adaptive version.
+
 ## [1.5] - 2022-05-03
 ### Fixed:
 - Adaptive version of "News Block".
